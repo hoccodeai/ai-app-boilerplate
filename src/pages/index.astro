@@ -1,0 +1,30 @@
+---
+import "@/styles/globals.css";
+
+import ModelType from "@/components/ModelType.astro";
+import Footer from "@/components/Footer.astro";
+
+import Completion from "@/pages/_Completion";
+import Chat from "@/pages/_Chat";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>AI Code App</title>
+  </head>
+  <body class="flex flex-col min-h-[60vh]">
+    <ModelType />
+
+    <div class="flex-grow">
+      <!-- <Completion client:load /> -->
+
+      <Chat client:load />
+    </div>
+
+    <Footer />
+  </body>
+</html>

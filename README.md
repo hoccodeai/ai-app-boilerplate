@@ -20,7 +20,7 @@ Bản quyền thuộc về team [Học Code AI](https://hoccodeai.com).
 
 1. Clone repository về máy:
 ```bash
-git clone <repository-url>
+git clone https://github.com/hoccodeai/ai-app-boilerplate.git
 cd ai-app-boilerplate
 ```
 
