@@ -45,6 +45,11 @@ ANTHROPIC_API_KEY=sk-ant-xxx
 GOOGLE_API_KEY=xxx
 ```
 
+Bạn có thể lấy API Key tại:
+- Google (Free): <https://aistudio.google.com/u/1/apikey>
+- OpenAI : <https://platform.openai.com/api-keys>
+- Anthropic: <https://console.anthropic.com/settings/keys>
+
 4. Chạy development server:
 ```bash
 npm run dev
